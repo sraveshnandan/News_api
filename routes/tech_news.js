@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const cheerio = require('cheerio');
-const product_data = require('../models/product')
+const product_data = require('../models/schema')
 const axios = require('axios');
 const { response } = require('express');
 const url = process.env.TECH_NEWS;

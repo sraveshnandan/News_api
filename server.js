@@ -17,6 +17,7 @@ const port = process.env.PORT || 8000;
 connectToDb()
 //Express middleware
 app.use(express.json());
+app.use('', homeRoute)
 app.use('', latest_news)
 app.use('', tech_news)
 app.use('', sports_news)
