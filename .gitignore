@@ -16,7 +16,7 @@ dist-ssr
 *.local
 
 # Ignore environment configuration files
-
+.env
 
 # Ignore compiled code or build artifacts
 /dist/
